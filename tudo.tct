@@ -1,0 +1,100 @@
+Sejam Bem Vindos a Aula 03 de Python!
+
+Link Repositório:
+https://github.com/Davi-Classes/PYTHON2025-DFS110
+
+---------------------------------------------------------------------------------------
+Exercicios:
+
+(Revisão) Faça um programa que peça 3 notas, calcule a média e mostre a situação do aluno:
+
+APROVADO -> Media maior ou igual a 6
+RECUPERACAO -> Media maior ou igual a 4 e menor que 6
+REPROVADO -> Media menor que 4
+
+
+# Entrada
+nota1 = float(input('Digite a 1ª nota: '))
+nota2 = float(input('Digite a 2ª nota: '))
+nota3 = float(input('Digite a 3ª nota: '))
+
+# Processamento
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 6:
+    situacao = 'APROVADO'
+elif media < 4:
+    situacao = 'REPROVADO'
+else:
+    situacao = 'RECUPERACAO'
+
+
+# Saída
+print(f'Média: {media:.2f}')
+print(f'Situação: {situacao}')
+
+
+(Extra) Faça um programa que peça um ano, e informe se ele é um ano bissexto.
+OBS: para ser bissexto, o ano deve ser divisivel por 4 e não pode ser divisivel por 100, exceto os divisiveis por 400.
+
+ano = int(input("Digite um ano: "))
+if ((ano % 4) == 0 and (ano % 100) != 0) or ano % 400 == 0:
+    print(f"O ano digitado ({ano}) é um ano BISSEXTO")
+else:
+    print(f"O ano digitado ({ano}) NÃO é um ano BISSEXTO")
+----------------------------------------------------------------------------------      
+# Operadores Lógicos.
+
+
+# AND - as duas condições precisam ser verdadeiras para que a expressão seja verdadeira.
+print(1 == 1 and 2 == 0)
+
+# OR - apenas uma condição precisa ser verdaira para que a expressão seja verdadeira.
+print(1 > 2 or 10 < 14)
+
+# NOT - inverter o resultado da condição, verdadeiro vira falso e falso vira verdadeiro.
+print(not 1 > 5)
+
+---------------------------------------------------------------------------------
+
+ex02.py
+
+numero1 = int(input('Digite o 1º numero: '))
+numero2 = int(input('Digite o 2º numero: '))
+
+# O numero1 é maior que o numero2?
+if numero1 > numero2:
+    print(f'O maior numero é {numero1}')
+else:
+    print(f'O maior numero é {numero2}')
+----------------------------------------------------------------------------------------
+ex03.py
+
+print('Descubra a natureza no numero!')
+numero = int(input('Digite um numero: '))
+
+if numero > 0:
+    print('O numero é positivo.')
+elif numero < 0:
+    print('O numero é negativo')
+else:
+    print('O numero é neutro.')
+
+--------------------------------------------------------------------------------------------------
+ex04.py
+
+
+idade = int(input('Digite sua idade: '))
+
+
+if idade < 16:
+    print('Não pode votar.')
+elif (idade >= 16 and idade < 18) or idade >= 65:
+    print('Voto Facultativo.')
+else:
+    print('Voto Obrigatório.')
+
+--------------------------------------------------------------------------------------------------
+Revisão Extra
+
+
