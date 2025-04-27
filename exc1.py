@@ -1,12 +1,17 @@
-#Ex01. Crie uma lista preenchida com 5 elementos, e mostre na tela:
-# O 1º elemento
-# O elemento no indice 3
-# O ultimo element
 
-minha_lista = 'kevin', 'kiff', 'paola', 'luiza', 'fred'
-print(minha_lista[0])
+# 1 - Faça um algoritmo utilizando função que receba um número e defina se ele é positivo negativo ou nulo(0)
 
-print(minha_lista[3])
+def definir(num):
+    i=''
+    if num > 0:
+        i = 'Positivo'
+    elif num == 0:
+        i = 'Nulo'
+    else:
+        i = 'Negativo'
+    return i    
+        
 
-print(minha_lista[4])
+print(definir(5))
 
+        
