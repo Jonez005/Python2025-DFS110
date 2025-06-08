@@ -1,0 +1,22 @@
+Curriculo Online!
+
+Faça um Curriculo online utilizando o Stremlit!
+o curriculo deve conter:
+
+- Sobre mim:
+Deve conter um titulo , um paragrafo de apresentação
+e opcionalmente uma imagem
+Poede colocar teambém contatos como celular e email
+
+- Experiencias Profissionais
+Deve conter um alista nao ordenada com suas esperiencias
+Profissionais e uma descrição.
+Pode utilizar também titulos de hierarquia menor e listar as 
+atividades em listas nao ordenadas
+
+
+- Educação 
+Formacões , Cursos e Certificados
+
+- Liguagens (Português n Inglês e etc...)
+Liste as Suas principais Liguagens que vocẽ domina
